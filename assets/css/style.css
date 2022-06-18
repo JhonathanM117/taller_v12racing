@@ -111,8 +111,8 @@ main {
     grid-auto-rows: minmax (100px, auto);
     grid-template-areas:
     "h1 h1 h1 h1 h1"
-    "servicios servicios . marcas marcas"
-    "texto texto . boton marcas";
+    "servicios servicios marcas marcas"
+    "texto texto boton marcas";
 }
 footer {
     background-color: #C4C4C4;
