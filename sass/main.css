@@ -1,0 +1,66 @@
+.box-responsive {
+  width: 300px/2;
+  height: 200px;
+  background-color: aqua;
+}
+
+/* condicionales */
+.box-responsive {
+  background-color: black;
+  color: white;
+}
+
+/* bucles */
+.headings-1 {
+  font-size: 12px;
+}
+
+.headings-2 {
+  font-size: 24px;
+}
+
+.headings-3 {
+  font-size: 36px;
+}
+
+.headings-4 {
+  font-size: 48px;
+}
+
+.headings-5 {
+  font-size: 60px;
+}
+
+/* each */
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+/* maps */
+.icon-tw {
+  color: skyblue;
+}
+
+.icon-fb {
+  color: blue;
+}
+
+.icon-ig {
+  color: blueviolet;
+}
+
+/* mixin */
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  background: tomato;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,62 @@
+.box-responsive {
+    width: 300px / 2;
+    height: 200px;
+    background-color: aqua;
+}
+
+
+/* condicionales */
+$bgColor: dark;
+
+@if $bgColor == dark {
+    .box-responsive{
+        background-color:black;
+        color: white;
+    }
+    
+        } 
+        @else if $bgColor == light {
+            .box-responsive {
+                background-color: white;
+                color: grey;
+            }
+        }
+
+
+        /* bucles */
+
+        @for $i from 1 to 6 {
+           .headings-#{$i} {
+                font-size: 12px * $i
+            }
+        }
+
+        /* each */
+        @each $background in red, green, blue {
+            .bg-#{$background} {
+                background-color: $background;
+            }
+          
+        }
+
+        /* maps */
+        $red-social: (
+            tw: skyblue, 
+            fb: blue,
+            ig: blueviolet
+        );
+        @each $nombre, $valor in $red-social {
+            .icon-#{$nombre} {
+                color: $valor;
+            }
+        }
+/* mixin */
+@mixin btn {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+}
+.btn {
+    @include btn;
+    background: tomato;
+}
