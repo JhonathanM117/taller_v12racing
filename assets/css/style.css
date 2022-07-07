@@ -4,7 +4,7 @@
     --font-primary: "inter" , sans-serif;
     --font-secondary: "bowly one SC" , cursive;
 }
-body {
+body .container {
     background-color: var(--principal);
 }
 

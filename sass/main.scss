@@ -1,7 +1,7 @@
 .box-responsive {
     width: 300px / 2;
     height: 200px;
-    background-color: aqua;
+    background-color: black;
 }
 
 
@@ -15,7 +15,7 @@ $bgColor: dark;
     }
     
         } 
-        @else if $bgColor == light {
+        @else if $bgColor == light {pc gamer
             .box-responsive {
                 background-color: white;
                 color: grey;
@@ -23,7 +23,8 @@ $bgColor: dark;
         }
 
 
-        /* bucles */
+        /*00.
+         bucles */
 
         @for $i from 1 to 6 {
            .headings-#{$i} {

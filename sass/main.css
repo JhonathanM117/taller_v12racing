@@ -1,7 +1,7 @@
 .box-responsive {
   width: 300px/2;
   height: 200px;
-  background-color: aqua;
+  background-color: black;
 }
 
 /* condicionales */
@@ -10,7 +10,8 @@
   color: white;
 }
 
-/* bucles */
+/*00.
+ bucles */
 .headings-1 {
   font-size: 12px;
 }
